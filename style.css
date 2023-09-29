@@ -1,0 +1,860 @@
+.startameeting {
+  background-color: #050e14;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.startameeting .div {
+  background-color: var(--neutral-100);
+  width: 1440px;
+  height: 900px;
+  position: relative;
+}
+
+.startameeting .overlap {
+  position: absolute;
+  width: 572px;
+  height: 422px;
+  top: 209px;
+  left: 138px;
+  background-image: url(./img/mask-group-1.png);
+  background-size: 100% 100%;
+}
+
+.startameeting .group {
+  position: relative;
+  width: 140px;
+  height: 40px;
+  top: 357px;
+  left: 216px;
+}
+
+.startameeting .ep-full-screen-wrapper {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 50px;
+  background-color: var(--neutral-20);
+  border-radius: 4px;
+}
+
+.startameeting .img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+}
+
+.startameeting .carbon-shrink-screen-wrapper {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background-color: var(--neutral-20);
+  border-radius: 4px;
+}
+
+.startameeting .carbon-maximize-wrapper {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  left: 100px;
+  background-color: var(--neutral-20);
+  border-radius: 4px;
+}
+
+.startameeting .meeting-header {
+  position: absolute;
+  width: 1440px;
+  height: 56px;
+  top: 8px;
+  left: 0;
+}
+
+.startameeting .overlap-group {
+  position: relative;
+  height: 56px;
+}
+
+.startameeting .group-2 {
+  position: absolute;
+  width: 117px;
+  height: 34px;
+  top: 6px;
+  left: 99px;
+}
+
+.startameeting .text-wrapper {
+  position: absolute;
+  height: 16px;
+  top: 0;
+  left: 0;
+  font-family: "Graphik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.startameeting .text-wrapper-2 {
+  position: absolute;
+  height: 14px;
+  top: 20px;
+  left: 0;
+  font-family: "Graphik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff80;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+}
+
+.startameeting .frame {
+  display: inline-flex;
+  flex-direction: column;
+  height: 20px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 2px 6px 0px;
+  position: absolute;
+  top: 13px;
+  left: 222px;
+  background-color: #ffffff1f;
+  border-radius: 2px;
+}
+
+.startameeting .text-wrapper-3 {
+  font-family: "Graphik-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  position: relative;
+  width: fit-content;
+  color: #ffffff;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.startameeting .mask-group {
+  position: absolute;
+  width: 70px;
+  height: 29px;
+  top: 9px;
+  left: 20px;
+}
+
+.startameeting .overlap-2 {
+  position: absolute;
+  width: 1440px;
+  height: 43px;
+  top: 13px;
+  left: 0;
+}
+
+.startameeting .line {
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  top: 42px;
+  left: 0;
+  object-fit: cover;
+}
+
+.startameeting .meeting-tabs {
+  position: absolute;
+  width: 495px;
+  height: 43px;
+  top: 0;
+  left: 473px;
+}
+
+.startameeting .group-3 {
+  position: absolute;
+  width: 67px;
+  height: 20px;
+  top: 0;
+  left: 374px;
+}
+
+.startameeting .img-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.startameeting .text-wrapper-4 {
+  position: absolute;
+  height: 20px;
+  top: 0;
+  left: 30px;
+  font-family: var(--text-base-regular-font-family);
+  font-weight: var(--text-base-regular-font-weight);
+  color: var(--white-100);
+  font-size: var(--text-base-regular-font-size);
+  letter-spacing: var(--text-base-regular-letter-spacing);
+  line-height: var(--text-base-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-regular-font-style);
+}
+
+.startameeting .group-4 {
+  position: absolute;
+  width: 136px;
+  height: 20px;
+  top: 0;
+  left: 190px;
+}
+
+.startameeting .line-2 {
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  top: 41px;
+  left: 57px;
+}
+
+.startameeting .group-5 {
+  position: absolute;
+  width: 68px;
+  height: 20px;
+  top: 0;
+  left: 74px;
+}
+
+.startameeting .text-wrapper-5 {
+  position: absolute;
+  height: 20px;
+  top: 0;
+  left: 30px;
+  font-family: var(--text-base-bold-font-family);
+  font-weight: var(--text-base-bold-font-weight);
+  color: var(--primary-80);
+  font-size: var(--text-base-bold-font-size);
+  letter-spacing: var(--text-base-bold-letter-spacing);
+  line-height: var(--text-base-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-bold-font-style);
+}
+
+.startameeting .overlap-3 {
+  position: absolute;
+  width: 320px;
+  height: 46px;
+  top: 0;
+  left: 1102px;
+}
+
+.startameeting .group-6 {
+  position: absolute;
+  width: 320px;
+  height: 46px;
+  top: 0;
+  left: 0;
+}
+
+.startameeting .carbon-play {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 13px;
+  left: 100px;
+}
+
+.startameeting .overlap-group-2 {
+  position: absolute;
+  width: 120px;
+  height: 46px;
+  top: 0;
+  left: 200px;
+  border-radius: 2px;
+}
+
+.startameeting .rectangle {
+  position: absolute;
+  width: 120px;
+  height: 46px;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+  border: 1px solid;
+  border-color: var(--primary-80);
+}
+
+.startameeting .group-7 {
+  position: absolute;
+  width: 62px;
+  height: 20px;
+  top: 13px;
+  left: 28px;
+}
+
+.startameeting .text-wrapper-6 {
+  position: absolute;
+  height: 20px;
+  top: 0;
+  left: 25px;
+  font-family: var(--text-base-bold-font-family);
+  font-weight: var(--text-base-bold-font-weight);
+  color: var(--primary-80);
+  font-size: var(--text-base-bold-font-size);
+  letter-spacing: var(--text-base-bold-letter-spacing);
+  line-height: var(--text-base-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-bold-font-style);
+}
+
+.startameeting .carbon-user-follow {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 0;
+}
+
+.startameeting .carbon-user-multiple {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 13px;
+  left: 50px;
+}
+
+.startameeting .carbon-user-role {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 13px;
+  left: 0;
+}
+
+.startameeting .carbon-help {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 13px;
+  left: 150px;
+}
+
+.startameeting .overlap-4 {
+  position: absolute;
+  width: 572px;
+  height: 422px;
+  top: 209px;
+  left: 730px;
+  background-color: var(--secondary-10);
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: var(--primary-100);
+}
+
+.startameeting .invite-tabs {
+  position: absolute;
+  width: 492px;
+  height: 62px;
+  top: 75px;
+  left: 39px;
+}
+
+.startameeting .navbar {
+  position: absolute;
+  width: 492px;
+  height: 44px;
+  top: 19px;
+  left: 0;
+}
+
+.startameeting .rectangle-2 {
+  position: absolute;
+  width: 492px;
+  height: 42px;
+  top: 1px;
+  left: 0;
+  background-color: var(--white-100);
+  border-radius: 4px;
+  box-shadow: var(--DS-sm);
+}
+
+.startameeting .rectangle-3 {
+  position: absolute;
+  width: 127px;
+  height: 44px;
+  top: 0;
+  left: 259px;
+  background-color: var(--primary-10);
+  border: 1px solid;
+  border-color: var(--primary-100);
+  box-shadow: var(--DS-sm);
+}
+
+.startameeting .text-wrapper-7 {
+  left: 37px;
+  font-weight: var(--text-base-regular-font-weight);
+  position: absolute;
+  height: 20px;
+  top: 11px;
+  font-family: var(--text-base-regular-font-family);
+  color: var(--primary-100);
+  font-size: var(--text-base-regular-font-size);
+  letter-spacing: var(--text-base-regular-letter-spacing);
+  line-height: var(--text-base-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-regular-font-style);
+}
+
+.startameeting .text-wrapper-8 {
+  left: 178px;
+  font-weight: var(--text-base-regular-font-weight);
+  position: absolute;
+  height: 20px;
+  top: 11px;
+  font-family: var(--text-base-regular-font-family);
+  color: var(--primary-100);
+  font-size: var(--text-base-regular-font-size);
+  letter-spacing: var(--text-base-regular-letter-spacing);
+  line-height: var(--text-base-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-regular-font-style);
+}
+
+.startameeting .text-wrapper-9 {
+  left: 303px;
+  font-weight: var(--text-base-bold-font-weight);
+  position: absolute;
+  height: 20px;
+  top: 11px;
+  font-family: var(--text-base-bold-font-family);
+  color: var(--primary-100);
+  font-size: var(--text-base-bold-font-size);
+  letter-spacing: var(--text-base-bold-letter-spacing);
+  line-height: var(--text-base-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-bold-font-style);
+}
+
+.startameeting .text-wrapper-10 {
+  left: 425px;
+  font-weight: var(--text-base-regular-font-weight);
+  position: absolute;
+  height: 20px;
+  top: 11px;
+  font-family: var(--text-base-regular-font-family);
+  color: var(--primary-100);
+  font-size: var(--text-base-regular-font-size);
+  letter-spacing: var(--text-base-regular-letter-spacing);
+  line-height: var(--text-base-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-regular-font-style);
+}
+
+.startameeting .line-3 {
+  position: absolute;
+  width: 1px;
+  height: 42px;
+  top: 1px;
+  left: 260px;
+  object-fit: cover;
+}
+
+.startameeting .line-4 {
+  position: absolute;
+  width: 1px;
+  height: 42px;
+  top: 1px;
+  left: 383px;
+  object-fit: cover;
+}
+
+.startameeting .text-wrapper-11 {
+  position: absolute;
+  height: 16px;
+  top: -1px;
+  left: 0;
+  font-family: var(--text-sm-regular-font-family);
+  font-weight: var(--text-sm-regular-font-weight);
+  color: var(--white-70);
+  font-size: var(--text-sm-regular-font-size);
+  letter-spacing: var(--text-sm-regular-letter-spacing);
+  line-height: var(--text-sm-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--text-sm-regular-font-style);
+}
+
+.startameeting .buttons-text {
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 24px 12px;
+  position: absolute;
+  top: 381px;
+  left: 436px;
+  border-radius: 4px;
+}
+
+.startameeting .carbon-copy {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.startameeting .text {
+  margin-top: -1.5px;
+  margin-bottom: -0.5px;
+  font-family: var(--text-base-bold-font-family);
+  font-weight: var(--text-base-bold-font-weight);
+  font-size: var(--text-base-bold-font-size);
+  text-align: center;
+  line-height: var(--text-base-bold-line-height);
+  position: relative;
+  width: fit-content;
+  color: var(--white-100);
+  letter-spacing: var(--text-base-bold-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--text-base-bold-font-style);
+}
+
+.startameeting .text-wrapper-12 {
+  position: absolute;
+  height: 20px;
+  top: 387px;
+  left: 17px;
+  font-family: var(--text-base-regular-font-family);
+  font-weight: var(--text-base-regular-font-weight);
+  color: var(--white-70);
+  font-size: var(--text-base-regular-font-size);
+  letter-spacing: var(--text-base-regular-letter-spacing);
+  line-height: var(--text-base-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-regular-font-style);
+}
+
+.startameeting .p {
+  position: absolute;
+  height: 32px;
+  top: 28px;
+  left: 138px;
+  font-family: var(--text-2xl-bold-font-family);
+  font-weight: var(--text-2xl-bold-font-weight);
+  color: #ffffff;
+  font-size: var(--text-2xl-bold-font-size);
+  letter-spacing: var(--text-2xl-bold-letter-spacing);
+  line-height: var(--text-2xl-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--text-2xl-bold-font-style);
+}
+
+.startameeting .line-5 {
+  position: absolute;
+  width: 572px;
+  height: 1px;
+  top: 380px;
+  left: -1px;
+  object-fit: cover;
+}
+
+.startameeting .secondary {
+  display: flex;
+  width: 80px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 24px 12px;
+  position: absolute;
+  top: 193px;
+  left: 451px;
+  background-color: var(--primary-100);
+  border-radius: 4px;
+}
+
+.startameeting .text-2 {
+  font-family: var(--text-sm-bold-font-family);
+  font-weight: var(--text-sm-bold-font-weight);
+  font-size: var(--text-sm-bold-font-size);
+  text-align: center;
+  line-height: var(--text-sm-bold-line-height);
+  position: relative;
+  width: fit-content;
+  color: var(--white-100);
+  letter-spacing: var(--text-sm-bold-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--text-sm-bold-font-style);
+}
+
+.startameeting .search {
+  position: absolute;
+  width: 402px;
+  height: 42px;
+  top: 193px;
+  left: 39px;
+  background-color: var(--white-100);
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--primary-10);
+  box-shadow: var(--DS-sm);
+}
+
+.startameeting .group-8 {
+  position: relative;
+  width: 185px;
+  height: 20px;
+  top: 10px;
+  left: 16px;
+}
+
+.startameeting .search-name-phone-no {
+  position: absolute;
+  height: 20px;
+  top: 0;
+  left: 26px;
+  font-family: var(--text-base-regular-font-family);
+  font-weight: var(--text-base-regular-font-weight);
+  color: var(--neutral-30);
+  font-size: var(--text-base-regular-font-size);
+  letter-spacing: var(--text-base-regular-letter-spacing);
+  line-height: var(--text-base-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--text-base-regular-font-style);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.startameeting .carbon-search {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 3px;
+  left: 0;
+}
+
+.startameeting .text-wrapper-13 {
+  position: absolute;
+  height: 14px;
+  top: 168px;
+  left: 39px;
+  font-family: var(--text-xs-regular-font-family);
+  font-weight: var(--text-xs-regular-font-weight);
+  color: var(--white-50);
+  font-size: var(--text-xs-regular-font-size);
+  letter-spacing: var(--text-xs-regular-letter-spacing);
+  line-height: var(--text-xs-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--text-xs-regular-font-style);
+}
+
+.startameeting .call-controls {
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  top: 820px;
+  left: 0;
+}
+
+.startameeting .group-9 {
+  position: relative;
+  height: 80px;
+  left: 1px;
+  background-color: #060f14;
+}
+
+.startameeting .group-10 {
+  position: absolute;
+  width: 608px;
+  height: 46px;
+  top: 17px;
+  left: 416px;
+}
+
+.startameeting .group-11 {
+  position: absolute;
+  width: 72px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-10);
+  border-radius: 4px;
+}
+
+.startameeting .line-6 {
+  position: absolute;
+  width: 1px;
+  height: 45px;
+  top: 0;
+  left: 44px;
+  object-fit: cover;
+}
+
+.startameeting .carbon-chevron-down {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 15px;
+  left: 50px;
+}
+
+.startameeting .img-3 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 11px;
+  left: 10px;
+}
+
+.startameeting .group-12 {
+  position: absolute;
+  width: 72px;
+  height: 45px;
+  top: 0;
+  left: 92px;
+  background-color: var(--primary-10);
+  border-radius: 4px;
+}
+
+.startameeting .line-7 {
+  position: absolute;
+  width: 1px;
+  height: 45px;
+  top: 0;
+  left: 43px;
+  object-fit: cover;
+}
+
+.startameeting .carbon-chevron-down-2 {
+  left: 49px;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 15px;
+}
+
+.startameeting .group-13 {
+  position: absolute;
+  width: 72px;
+  height: 45px;
+  top: 0;
+  left: 184px;
+  background-color: var(--primary-10);
+  border-radius: 4px;
+}
+
+.startameeting .group-14 {
+  position: absolute;
+  width: 72px;
+  height: 45px;
+  top: 0;
+  left: 536px;
+  background-color: var(--red-100);
+  border-radius: 4px;
+}
+
+.startameeting .carbon-phone {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  top: 7px;
+  left: 5px;
+}
+
+.startameeting .carbon-group-wrapper {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 0;
+  left: 341px;
+  background-color: var(--primary-10);
+  border-radius: 4px;
+}
+
+.startameeting .img-4 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 11px;
+  left: 11px;
+}
+
+.startameeting .carbon-checkbox-wrapper {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 0;
+  left: 406px;
+  background-color: var(--primary-10);
+  border-radius: 4px;
+}
+
+.startameeting .fluent-hand-left-wrapper {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 0;
+  left: 276px;
+  background-color: var(--primary-10);
+  border-radius: 4px;
+}
+
+.startameeting .group-wrapper {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 1px;
+  left: 471px;
+  background-color: var(--primary-10);
+  border-radius: 4px;
+}
+
+.startameeting .overlap-group-wrapper {
+  position: relative;
+  width: 20px;
+  height: 18px;
+  top: 14px;
+  left: 13px;
+}
+
+.startameeting .overlap-group-3 {
+  position: relative;
+  height: 18px;
+}
+
+.startameeting .subtract {
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  top: 1px;
+  left: 0;
+}
+
+.startameeting .ellipse {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  left: 14px;
+  background-color: var(--accent-100);
+  border-radius: 3px;
+}
+
+.startameeting .carbon-settings-wrapper {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 17px;
+  left: 1374px;
+  background-color: var(--primary-10);
+  border-radius: 4px;
+}
